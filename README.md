@@ -1,21 +1,21 @@
-# 🔌 VaultOS Obsidian Plugin Template
+# 📸 Vault Image Generator Plugin
 
-> _A modular beginning to powerful plugin architecture._
+> _Create images from your notes with a modular Obsidian plugin._
 
-Welcome to the official VaultOS-style Obsidian Plugin Template, powered by PtiCalin flair.  
-This repo is crafted for structured development, modular scaling, and joyful collaboration.
+Welcome to the Vault Image Generator plugin for Obsidian, built with PtiCalin flair.
+This repo provides the scaffold and features needed to generate images right inside your vault.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Status: WIP](https://img.shields.io/badge/status-WIP-yellow.svg)](WIP)
 [![Pull Requests Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](./.github/PULL_REQUEST_TEMPLATE.md)
-[![GitHub Discussions](https://img.shields.io/badge/💬-Discussions-blueviolet?logo=github)](https://github.com/your-username/vaultos-plugin-template/discussions)
+[![GitHub Discussions](https://img.shields.io/badge/💬-Discussions-blueviolet?logo=github)](https://github.com/your-username/vault_image-generator/discussions)
 [![Sponsor PtiCalin](https://img.shields.io/badge/Sponsor-💖-f06292.svg?logo=githubsponsors)](https://github.com/sponsors/your-username)
 
 ---
 
 ## 🧰 Features
 
-- 🧠 Obsidian plugin scaffold in TypeScript
+- 🖼 Generate images from text prompts directly inside Obsidian
 - ⚙️ VaultOS-ready modular structure (`src/`, `ops/`, `config/`, `dist/`)
 - 📦 Rollup build system with `manifest.json`
 - 📁 Ready-to-use GitHub Actions and PR templates
@@ -25,11 +25,11 @@ This repo is crafted for structured development, modular scaling, and joyful col
 
 ## 🚀 Getting Started
 
-Clone this template and start building your own plugin:
+Clone this repository to start using the image generator plugin:
 
 ```bash
-git clone https://github.com/your-username/vaultos-plugin-template.git
-cd vaultos-plugin-template
+git clone https://github.com/your-username/vault_image-generator.git
+cd vault_image-generator
 ```
 
 ### 🛠 Local Setup
@@ -65,7 +65,7 @@ Use our templates to get started:
 - [🌟 Feature Requests](./.github/ISSUE_TEMPLATE/feature_request.md)
 - [📦 Pull Requests](./.github/PULL_REQUEST_TEMPLATE.md)
 
-Read our [CONTRIBUTING.md](CONTRIBUTING.md) for more info, or start a conversation in [💬 GitHub Discussions](https://github.com/your-username/vaultos-plugin-template/discussions).
+Read our [CONTRIBUTING.md](CONTRIBUTING.md) for more info, or start a conversation in [💬 GitHub Discussions](https://github.com/your-username/vault_image-generator/discussions).
 
 ---
 
@@ -78,7 +78,7 @@ Use freely, fork creatively — just spread the love.
 
 ## 💌 Sponsor
 
-If this template helped you get started faster or better, consider sponsoring here:  
+If this plugin sparks creativity or helps you generate visuals, consider sponsoring here:
 [**github.com/sponsors/your-username**](https://github.com/sponsors/your-username)
 
 ---
