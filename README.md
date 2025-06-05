@@ -16,6 +16,7 @@ This repo provides the scaffold and features needed to generate images right ins
 ## 🧰 Features
 
 - 🖼 Generate images from text prompts directly inside Obsidian
+- 🤖 Powered by [Ollama](https://ollama.ai/) for local AI image generation
 - ⚙️ VaultOS-ready modular structure (`src/`, `ops/`, `config/`, `dist/`)
 - 📦 Rollup build system with `manifest.json`
 - 📁 Ready-to-use GitHub Actions and PR templates
@@ -40,6 +41,8 @@ npm run build
 ```
 
 After building, copy the contents of `/dist` into your Obsidian vault’s `.obsidian/plugins/` folder.
+
+The plugin uses Ollama locally. You can configure the model and output folder from the plugin settings inside Obsidian.
 
 ---
 

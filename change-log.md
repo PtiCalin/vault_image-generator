@@ -3,7 +3,7 @@
 All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
-- Documentation updated for image generation plugin
+- Add Ollama-powered image generator plugin skeleton
 
 ## [0.1.0] - YYYY-MM-DD
 
