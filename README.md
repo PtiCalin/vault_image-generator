@@ -86,4 +86,4 @@ If this plugin sparks creativity or helps you generate visuals, consider sponsor
 
 ---
 
-Have fun building, and spend less time structuring
+Have fun building, and spend less time structuring!
