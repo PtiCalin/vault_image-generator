@@ -1,3 +1,8 @@
+// === src/main.ts ===
+// Purpose: Obsidian plugin that sends text selections to Ollama and saves the resulting image.
+// Dependencies: Obsidian API, fs/promises, config/default.ts, ops/ollama.ts.
+// Output: Creates an image file in the configured output folder of the vault.
+// Example: Select text, run "Generate Image with Ollama", then check the output directory for the new image.
 import { App, Plugin, PluginSettingTab, Setting, Notice, MarkdownView, normalizePath } from 'obsidian';
 import { DEFAULT_SETTINGS, PluginSettings } from '../config/default';
 import { runOllama } from '../ops/ollama';
