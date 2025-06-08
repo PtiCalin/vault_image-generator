@@ -33,6 +33,12 @@ git clone https://github.com/PtiCalin/vault_image-generator.git
 cd vault_image-generator
 ```
 
+For an automated setup you can simply run:
+
+```bash
+./setup.sh
+```
+
 ### 🛠 Local Setup
 
 Install dependencies and bundle the plugin:
