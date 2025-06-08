@@ -58,6 +58,14 @@ After building, copy the contents of `/dist` into your Obsidian vault’s `.obsi
 
 The plugin uses Ollama locally. You can configure the model and output folder from the plugin settings inside Obsidian.
 
+### Codex Setup
+
+If you open this project in Codex, set `setup.sh` as the setup script from
+**Workspace → Setup script** in the workspace settings. Should package
+installation fail, enable internet access from the same screen and rerun the
+setup. See the [Codex documentation](https://aka.ms/copilot-workspace-docs) for
+full details on configuring workspace setup.
+
 ---
 
 ## 🧱 Folder Structure
