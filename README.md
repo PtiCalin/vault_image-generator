@@ -7,7 +7,7 @@ This repo provides the scaffold and features needed to generate images right ins
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Status: WIP](https://img.shields.io/badge/status-WIP-yellow.svg)](WIP)
-[![Pull Requests Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](./.github/PULL_REQUEST_TEMPLATE.md)
+[![Pull Requests Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](./.github/pull_request_template.md)
 [![GitHub Discussions](https://img.shields.io/badge/💬-Discussions-blueviolet?logo=github)](https://github.com/PtiCalin/vault_image-generator/discussions)
 [![Sponsor PtiCalin](https://img.shields.io/badge/Sponsor-💖-f06292.svg?logo=githubsponsors)](https://github.com/sponsors/PtiCalin)
 
@@ -88,7 +88,7 @@ Use our templates to get started:
 
 - [🐛 Bug Reports](./.github/ISSUE_TEMPLATE/bug_report.md)
 - [🌟 Feature Requests](./.github/ISSUE_TEMPLATE/feature_request.md)
-- [📦 Pull Requests](./.github/PULL_REQUEST_TEMPLATE.md)
+- [📦 Pull Requests](./.github/pull_request_template.md)
 
 Read our [CONTRIBUTING.md](CONTRIBUTING.md) for more info, or start a conversation in [💬 GitHub Discussions](https://github.com/PtiCalin/vault_image-generator/discussions).
 
