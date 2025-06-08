@@ -35,9 +35,17 @@ cd vault_image-generator
 
 ### 🛠 Local Setup
 
+Install dependencies and bundle the plugin:
+
 ```bash
 npm install
 npm run build
+```
+
+During development you can watch the files and rebuild on changes with:
+
+```bash
+npm run dev
 ```
 
 After building, copy the contents of `/dist` into your Obsidian vault’s `.obsidian/plugins/` folder.
