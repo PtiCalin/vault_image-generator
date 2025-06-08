@@ -4,7 +4,7 @@ import { runOllama } from '../ops/ollama';
 import * as fs from 'fs/promises';
 
 export default class VaultImageGenerator extends Plugin {
-  settings: PluginSettings;
+  settings!: PluginSettings;
 
   async onload() {
     await this.loadSettings();
@@ -62,17 +62,17 @@ class ImageGeneratorSettingTab extends PluginSettingTab {
   }
 
   display() {
-    const { containerEl } = this;
+    const { containerEl } = this as any;
     containerEl.empty();
 
     new Setting(containerEl)
       .setName('Ollama model')
       .setDesc('Model to use for image generation')
-      .addText(text =>
+      .addText((text: any) =>
         text
           .setPlaceholder('stable-diffusion')
           .setValue(this.plugin.settings.model)
-          .onChange(async (value) => {
+          .onChange(async (value: string) => {
             this.plugin.settings.model = value;
             await this.plugin.saveSettings();
           }));
@@ -80,11 +80,11 @@ class ImageGeneratorSettingTab extends PluginSettingTab {
     new Setting(containerEl)
       .setName('Output folder')
       .setDesc('Folder to store generated images')
-      .addText(text =>
+      .addText((text: any) =>
         text
           .setPlaceholder('OllamaImages')
           .setValue(this.plugin.settings.outputDir)
-          .onChange(async (value) => {
+          .onChange(async (value: string) => {
             this.plugin.settings.outputDir = value;
             await this.plugin.saveSettings();
           }));
