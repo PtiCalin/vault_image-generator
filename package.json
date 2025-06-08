@@ -3,12 +3,14 @@
   "version": "0.1.0",
   "description": "Ollama powered image generator for Obsidian",
   "scripts": {
-    "build": "tsc -p tsconfig.json",
-    "dev": "tsc -watch -p tsconfig.json"
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
   },
   "devDependencies": {
     "obsidian": "^1.0.0",
-    "typescript": "^5.0.0"
+    "typescript": "^5.0.0",
+    "rollup": "^3.0.0",
+    "@rollup/plugin-typescript": "^11.0.0"
   },
   "dependencies": {
     "ollama": "*"
