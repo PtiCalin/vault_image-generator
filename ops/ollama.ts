@@ -9,5 +9,9 @@ import { promisify } from 'util';
 const execFileAsync = promisify(execFile);
 
 export async function runOllama(model: string, prompt: string, output: string): Promise<void> {
-  await execFileAsync('ollama', ['run', model, prompt, '--image', output]);
+  try {
+    await execFileAsync('ollama', ['run', model, prompt, '--image', output]);
+  } catch (err) {
+    throw new Error('❌ Could not run Ollama. Check that it\u2019s installed.');
+  }
 }
