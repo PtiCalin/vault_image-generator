@@ -5,7 +5,7 @@
   "minAppVersion": "0.15.0",
   "description": "Generate images from prompts using Ollama",
   "author": "PtiCalin",
-  "authorUrl": "https://github.com/your-username",
+  "authorUrl": "https://github.com/PtiCalin",
   "main": "dist/main.js",
   "isDesktopOnly": true
 }

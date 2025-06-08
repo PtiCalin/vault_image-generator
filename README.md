@@ -8,8 +8,8 @@ This repo provides the scaffold and features needed to generate images right ins
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Status: WIP](https://img.shields.io/badge/status-WIP-yellow.svg)](WIP)
 [![Pull Requests Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](./.github/PULL_REQUEST_TEMPLATE.md)
-[![GitHub Discussions](https://img.shields.io/badge/💬-Discussions-blueviolet?logo=github)](https://github.com/your-username/vault_image-generator/discussions)
-[![Sponsor PtiCalin](https://img.shields.io/badge/Sponsor-💖-f06292.svg?logo=githubsponsors)](https://github.com/sponsors/your-username)
+[![GitHub Discussions](https://img.shields.io/badge/💬-Discussions-blueviolet?logo=github)](https://github.com/PtiCalin/vault_image-generator/discussions)
+[![Sponsor PtiCalin](https://img.shields.io/badge/Sponsor-💖-f06292.svg?logo=githubsponsors)](https://github.com/sponsors/PtiCalin)
 
 ---
 
@@ -29,7 +29,7 @@ This repo provides the scaffold and features needed to generate images right ins
 Clone this repository to start using the image generator plugin:
 
 ```bash
-git clone https://github.com/your-username/vault_image-generator.git
+git clone https://github.com/PtiCalin/vault_image-generator.git
 cd vault_image-generator
 ```
 
@@ -76,7 +76,7 @@ Use our templates to get started:
 - [🌟 Feature Requests](./.github/ISSUE_TEMPLATE/feature_request.md)
 - [📦 Pull Requests](./.github/PULL_REQUEST_TEMPLATE.md)
 
-Read our [CONTRIBUTING.md](CONTRIBUTING.md) for more info, or start a conversation in [💬 GitHub Discussions](https://github.com/your-username/vault_image-generator/discussions).
+Read our [CONTRIBUTING.md](CONTRIBUTING.md) for more info, or start a conversation in [💬 GitHub Discussions](https://github.com/PtiCalin/vault_image-generator/discussions).
 
 ---
 
@@ -90,7 +90,7 @@ Use freely, fork creatively — just spread the love.
 ## 💌 Sponsor
 
 If this plugin sparks creativity or helps you generate visuals, consider sponsoring here:
-[**github.com/sponsors/your-username**](https://github.com/sponsors/your-username)
+[**github.com/sponsors/PtiCalin**](https://github.com/sponsors/PtiCalin)
 
 ---
 
